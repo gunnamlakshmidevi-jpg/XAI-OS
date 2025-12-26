@@ -1,0 +1,16 @@
+.card {
+  background: #0d1117;
+  padding: 30px;         /* Increased */
+  border-radius: 16px;
+  border: 1px solid #333;
+  color: #eef;
+}
+
+.card h2 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 20px;
+}
