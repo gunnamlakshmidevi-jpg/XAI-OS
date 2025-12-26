@@ -1,0 +1,4 @@
+algo,time,pid_chosen,arrival,burst,ready_count,reason,arrival_of_chosen,min_arrival_ready,now
+FCFS,0,P1,0,5,1,Chose P1 because it had the earliest arrival among ready processes.,0,0,0
+FCFS,5,P2,2,3,2,Chose P2 because it had the earliest arrival among ready processes.,2,2,5
+FCFS,8,P3,4,1,1,Chose P3 because it had the earliest arrival among ready processes.,4,4,8

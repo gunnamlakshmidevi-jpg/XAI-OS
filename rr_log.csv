@@ -1,0 +1,7 @@
+pid,arrival,burst,start,finish,waiting,turnaround
+P1,0,5,0,2,0,2
+P1,2,5,2,4,0,2
+P2,2,3,4,6,2,4
+P1,4,5,6,7,2,3
+P3,4,1,7,8,3,4
+P2,6,3,8,9,2,3

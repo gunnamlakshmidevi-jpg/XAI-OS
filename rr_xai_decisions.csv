@@ -1,0 +1,7 @@
+algo,time,pid_chosen,arrival,burst,ready_count,quantum_used,remaining_after,reason,queue_position,remaining_before,now
+RR,0,P1,0,5,1,2,3,"Chose P1 by Round Robin queue order; ran for 2 time unit(s), remaining after slice ≈ 1.",1,3,0
+RR,2,P1,2,5,2,2,1,"Chose P1 by Round Robin queue order; ran for 2 time unit(s), remaining after slice ≈ 0.",1,1,2
+RR,4,P2,2,3,3,2,1,"Chose P2 by Round Robin queue order; ran for 2 time unit(s), remaining after slice ≈ 0.",1,1,4
+RR,6,P1,4,5,3,1,0,"Chose P1 by Round Robin queue order; ran for 1 time unit(s), remaining after slice ≈ 0.",1,0,6
+RR,7,P3,4,1,2,1,0,"Chose P3 by Round Robin queue order; ran for 1 time unit(s), remaining after slice ≈ 0.",1,0,7
+RR,8,P2,6,3,1,1,0,"Chose P2 by Round Robin queue order; ran for 1 time unit(s), remaining after slice ≈ 0.",1,0,8
