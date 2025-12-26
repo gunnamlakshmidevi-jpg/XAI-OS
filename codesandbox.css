@@ -1,0 +1,46 @@
+.sandbox-wrapper {
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.sandbox-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.lang-select {
+  padding: 10px;
+  font-size: 18px;
+  background: #0d1117;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
+
+.run-btn {
+  background: #00c853;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.editor-box {
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.output-box {
+  background: #0d1117;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  font-size: 18px;
+  height: 200px;
+  overflow-y: auto;
+}
