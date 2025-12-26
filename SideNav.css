@@ -1,0 +1,55 @@
+/* Bigger Sidebar but same style */
+
+.sidenav {
+  width: 300px;                 /* ⭐ Bigger sidebar */
+  height: 100vh;
+  background: #0d1117;
+  border-right: 1px solid #1f2833;
+  padding: 30px 20px;           /* ⭐ Bigger padding */
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+}
+
+.sidenav-title {
+  color: #4ee1ff;
+  font-size: 28px;              /* ⭐ Bigger title */
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sidenav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;                     /* ⭐ More gap between links */
+}
+
+.sidenav-link {
+  padding: 16px 20px;           /* ⭐ Bigger click area */
+  color: #c9d1d9;
+  text-decoration: none;
+  font-size: 32px;         /* ⭐ Bigger text */
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.sidenav-link:hover {
+  background: #1a222b;
+  color: #58a6ff;
+}
+
+.active-link {
+  background: #1f6feb;
+  color: white !important;
+  font-weight: 700;
+}
+
+/* MAIN CONTENT SHIFT ACCORDING TO NEW SIDEBAR WIDTH */
+.main-content {
+  margin-left: 250px !important;  /* ⭐ Match new sidebar width */
+  padding: 30px;
+  background: #0b0f14;
+  color: white;
+}
